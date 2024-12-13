@@ -3,4 +3,5 @@ This J.A.R.V.I.S is made using the Gemini API. It will be made to mimic Jarvis f
 I am making this project specifically to fit my needs as I work, so some of its features may be too niche for others, such as the 3D rendering part (coming soon) or the circuit design element (also coming soon). 
 
 ## Visualizer 
-The visualizer is purely for aesthetic purposes and will help show when you or Jarvis is speaking
+The visualizer is purely for aesthetic purposes and will help show when you or Jarvis are speaking. Version 1 uses **pygame** to make a window with a few arcs on it that change length depending on when sound it detected. Probably will be changed to something else because it it doesn't look too great
+
