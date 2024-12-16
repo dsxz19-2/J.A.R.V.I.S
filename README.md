@@ -12,4 +12,7 @@ The visualizer is purely for aesthetic purposes and will help show when you or J
 The visualizer has been updated. It now uses OpenGL in Python to make better faster and better visuals. Credits to https://www.youtube.com/watch?v=f4s1h2YETNY, https://www.youtube.com/playlist?list=PLi-ukGVOag_2FRKHY5pakPNf9b9KXaYiD and https://www.shadertoy.com/view/ls3BDH, where I learned how to use this program and where I used the shader code. You shadertoy.com to find other shaders and paste them into shader.py where the original fragment_shader_code is.
 
 ## Hand Gesture Control
-This feature allows you to control the mouse cursor with your hands. The mouse cursor is bound to your index finger and the program uses the distance between your fingertips to identify clicks. Besides being cool, this would maybe have a use in interacting with 3D models that would ideally be projected onto my desk (code for rendering 3d models coming soon). 
+This feature allows you to control the mouse cursor with your hands. The cursor is bound to your index finger, and the program uses the distance between your fingertips to identify clicks. Besides being cool, this could possibly be used to interact with 3D models that would ideally be projected onto my desk (code for rendering 3D models coming soon). 
+
+## 3D Rendering
+The 3D rendering feature is now complete. Soon, J.A.R.V.I.S will be able to render STL files and project them onto my desk, and I'll be able to visualize them in the real world with a more accurate scale. (I still have to implement this into the jarvis.py file; I'm probably going to get to that after school's finished.)
