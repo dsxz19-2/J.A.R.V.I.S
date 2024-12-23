@@ -104,7 +104,7 @@ def load_music_files(folder):
     return [f for f in os.listdir(folder) if f.endswith(SUPPORTED_FORMATS)]
 
 def main():
-    genai.configure(api_key="AIzaSyAdJ1GLhQNBPz9Lp69TptrAJuHSQOuTleU")
+    genai.configure(api_key="")
 
     model = genai.GenerativeModel('gemini-1.5-flash')
     chat = model.start_chat(history=[])
