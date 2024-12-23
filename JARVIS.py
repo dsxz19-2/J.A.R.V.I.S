@@ -10,7 +10,6 @@ from IPython.display import display
 import google.generativeai as genai
 from RealtimeSTT import AudioToTextRecorder
 
-
 # Gemini sometimes has things like bullet points and stuff so this makes it that anything is spits out is just a paragraph
 def to_markdown(text):
   text = text.replace('•', ' ')
