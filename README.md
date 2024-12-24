@@ -16,3 +16,6 @@ This feature allows you to control the mouse cursor with your hands. The cursor 
 
 ## 3D Rendering
 The 3D rendering feature is now complete. Soon, J.A.R.V.I.S will be able to render STL files and project them onto my desk, and I'll be able to visualize them in the real world with a more accurate scale. (I still have to implement this into the jarvis.py file; I'm probably going to get to that after school's finished.)
+
+## JARVIS Update
+Jarvis can now answer questions, and play music you have saved. I tried getting a simple model to recognize basic commands but it didn't prove diffecult. It will be a future update.
